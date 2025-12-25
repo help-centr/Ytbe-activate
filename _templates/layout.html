@@ -1,1 +1,20 @@
+{# custom_layout.html - Extend default Sphinx HTML layout for yt.be/activate guide #}
+
+{% extends "!layout.html" %}
+
+{% block extrahead %}
+    {{ super() }}
+
+    <!-- Google Site Verification -->
+    
+
+    <!-- SEO Meta Tags for yt.be/activate -->
+    <meta name="description" content="Visit yt.be/activate to activate YouTube on Smart TV, Firestick, Roku, Apple TV, and gaming consoles. Enter your activation code and sign in instantly." />
+    <meta name="keywords" content="yt.be/activate, YouTube activation, activate YouTube on Smart TV, YouTube TV activation code, YouTube Firestick, YouTube Roku" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- SEO Optimized Title -->
+    <title>Yt.be/activate – Activate YouTube on Smart TV, Firestick & Roku</title>
+
+{% endblock %}
 
